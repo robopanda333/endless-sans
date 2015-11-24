@@ -93,7 +93,7 @@ InputManager.injectInto(document);
 
 function reset_game(difficulty) {
 	maruju.rootScene.resetGame(difficulty);
-	sans.queueText([
-		"Alright, here we go."
-	]);
+	//sans.queueText([
+	//	"Alright, here we go."
+	//]);
 }
