@@ -12,6 +12,7 @@ function Sans() {
 }
 
 Sans.prototype.queueText = function(queue) {
+	return; 
 	this.showSpeechBubble();
 	this.text_queue = this.text_queue.concat(queue);
 	this.text_state = "showing_textbox";
