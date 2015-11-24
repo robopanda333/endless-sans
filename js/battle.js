@@ -82,7 +82,7 @@ BattleScene.prototype.update = function(delta) {
 		if (this.final_message == false){
 			this.final_message = true;
 			document.getElementById("bgm1").pause();
-			sans.sendGameOverMessage();
+			//sans.sendGameOverMessage(); 
 		}
 
 		if (this.elapsed_time >= 1.0) {
